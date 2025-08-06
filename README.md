@@ -1,4 +1,3 @@
-
 # Spotify User Listening Pattern Segmentation using K-Means Clustering
 
 This project is a Flask-based web application that segments Spotify users based on their listening behavior using the K-Means clustering algorithm. It includes an interactive interface to upload CSV datasets, visualize optimal clusters using the Elbow Method, and export the segmented data.
@@ -25,6 +24,7 @@ This project is a Flask-based web application that segments Spotify users based 
 
 ## Folder Structure
 
+```text
 spotify-user-segmentation/
 │
 ├── static/
@@ -40,38 +40,60 @@ spotify-user-segmentation/
 ├── app.py                       # Flask application
 ├── requirements.txt             # Required dependencies
 └── README.md                    # Project documentation
-````
 
-## Getting Started
 
-### 1. Clone the Repository
 
+## 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/spotify-user-segmentation.git
 cd spotify-user-segmentation
-```
 
-### 2. Install Dependencies
-
+## 2. Install Dependencies
 Ensure you're using Python 3.8 or above.
-
 pip install -r requirements.txt
-```
 
-### 3. Run the Application
+## 3. Run the Application
 
 python app.py
-```
 
 Then visit:
-`http://127.0.0.1:5000/`
+http://127.0.0.1:5000/
 
 ## How to Use
+Open the app in your browser.
 
-1. Upload a CSV file containing Spotify user behavior data.
-2. The app will:
+Upload a CSV file with Spotify user listening data.
 
-   * Preprocess the data
-   * Show the elbow method plot
-   * Apply K-Means clustering (default k=3)
-   * Visualize clusters
-   * Let you download the output with cluster labels
+Click “Cluster Users” to segment the data using K-Means.
+
+View the clustered data and download the output.
+
+##Sample Input Format
+
+User_ID	Hours_Listened	Genre_Preference	Skip_Rate	Liked_Songs	Artist_Diversity
+U001	4.5	Pop	0.25	120	0.65
+
+## Technologies Used
+
+Python 3.8+
+
+Flask
+
+Pandas, NumPy, scikit-learn
+
+HTML/CSS
+
+## Screenshots
+
+![Upload](screenshots/input.png)
+
+![Upload](screenshots/load_data.png)
+
+![Upload](screenshots/clustervisualization.png)
+
+![Upload](screenshots/elbowmethod.png)
+
+![Upload](screenshots/segmenteddata.png)
+
+
