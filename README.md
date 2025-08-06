@@ -24,7 +24,7 @@ This project is a Flask-based web application that segments Spotify users based 
 
 ## Folder Structure
 
-```text
+
 spotify-user-segmentation/
 │
 ├── static/
