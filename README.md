@@ -22,30 +22,23 @@ This project is a Flask-based web application that segments Spotify users based 
 - Export segmented results to CSV
 - Clean and responsive interface using HTML/CSS
 
-## Folder Structure
-
-
 spotify-user-segmentation/
-│
-├── static/
-│   └── style.css                # CSS styling
-│
-├── templates/
-│   ├── index.html               # Upload form page
-│   └── result.html              # Result page (table + visualizations)
-│
-├── uploads/                     # Uploaded and output CSV files
-│
-├── synthetic_spotify_user_data.csv # Example dataset
-├── app.py                       # Flask application
-├── requirements.txt             # Required dependencies
-└── README.md                    # Project documentation
+├── static/                    # CSS styling
+│   └── style.css
+├── templates/                 # HTML templates
+│   ├── index.html             # Upload form page
+│   └── result.html            # Result page (table + visualizations)
+├── uploads/                   # Uploaded and output CSV files
+│   └── synthetic_spotify_user_data.csv   # Example dataset
+├── app.py                     # Flask application
+├── requirements.txt           # Required dependencies
+└── README.md                  # Project documentation
+
 
 
 
 ## 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/spotify-user-segmentation.git
 cd spotify-user-segmentation
 
@@ -95,5 +88,6 @@ HTML/CSS
 ![Upload](screenshots/elbowmethod.png)
 
 ![Upload](screenshots/segmenteddata.png)
+
 
 
