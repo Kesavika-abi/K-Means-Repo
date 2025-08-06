@@ -22,6 +22,7 @@ This project is a Flask-based web application that segments Spotify users based 
 - Export segmented results to CSV
 - Clean and responsive interface using HTML/CSS
 
+## Structure
 spotify-user-segmentation/
 ├── static/                    # CSS styling
 │   └── style.css
@@ -62,7 +63,7 @@ Click “Cluster Users” to segment the data using K-Means.
 
 View the clustered data and download the output.
 
-##Sample Input Format
+## Sample Input Format
 
 User_ID	Hours_Listened	Genre_Preference	Skip_Rate	Liked_Songs	Artist_Diversity
 U001	4.5	Pop	0.25	120	0.65
