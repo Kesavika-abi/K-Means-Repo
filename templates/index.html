@@ -1,0 +1,20 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify User Segmentation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify User Listening Pattern Segmentation</h1>
+        <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv" required>
+            <button type="submit">Upload and Segment</button>
+        </form>
+        <p class="note">Upload a CSV with listening behavior data like hours per day, genre preference, skip rate, etc.</p>
+    </div>
+</body>
+</html>

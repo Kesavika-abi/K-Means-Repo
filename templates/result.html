@@ -1,0 +1,33 @@
+<!-- templates/result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Segmentation Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Segmentation Results</h1>
+
+        <div class="plot-container">
+            <h2>Cluster Visualization</h2>
+            <img src="{{ cluster_plot }}" alt="Cluster Plot">
+        </div>
+
+        <div class="plot-container">
+            <h2>Elbow Method</h2>
+            <img src="{{ elbow_plot }}" alt="Elbow Plot">
+        </div>
+
+        <div class="table-container">
+            <h2>Segmented Data</h2>
+            {{ tables[0]|safe }}
+        </div>
+
+        <a href="{{ url_for('index') }}" class="btn">Try Another File</a>
+        <a href="{{ download_link }}" class="btn" download>Download CSV</a>
+    </div>
+</body>
+</html>
