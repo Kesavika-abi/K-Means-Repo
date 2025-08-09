@@ -23,6 +23,7 @@ This project is a Flask-based web application that segments Spotify users based 
 - Clean and responsive interface using HTML/CSS
 
 ## Structure
+```
 spotify-user-segmentation/
 ├── static/                    # CSS styling
 │   └── style.css
@@ -34,23 +35,24 @@ spotify-user-segmentation/
 ├── app.py                     # Flask application
 ├── requirements.txt           # Required dependencies
 └── README.md                  # Project documentation
-
+```
 
 
 
 ## 1. Clone the Repository
-
+```
 git clone https://github.com/your-username/spotify-user-segmentation.git
 cd spotify-user-segmentation
+```
 
 ## 2. Install Dependencies
-Ensure you're using Python 3.8 or above.
+```
 pip install -r requirements.txt
-
+```
 ## 3. Run the Application
-
+```
 python app.py
-
+```
 Then visit:
 http://127.0.0.1:5000/
 
