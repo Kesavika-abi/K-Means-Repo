@@ -82,13 +82,23 @@ HTML/CSS
 
 ## Screenshots
 
+## Input
+
 ![Upload](screenshots/input.png)
+
+## Load Data
 
 ![Upload](screenshots/load_data.png)
 
+## Clustervisualization
+
 ![Upload](screenshots/clustervisualization.png)
 
+## Elbowmethod
+
 ![Upload](screenshots/elbowmethod.png)
+
+## Segmented Data
 
 ![Upload](screenshots/segmenteddata.png)
 
