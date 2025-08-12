@@ -57,13 +57,13 @@ Then visit:
 http://127.0.0.1:5000/
 
 ## How to Use
-Open the app in your browser.
+1. Open the app in your browser.
 
-Upload a CSV file with Spotify user listening data.
+2. Upload a CSV file with Spotify user listening data.
 
-Click “Cluster Users” to segment the data using K-Means.
+3. Click “Cluster Users” to segment the data using K-Means.
 
-View the clustered data and download the output.
+4. View the clustered data and download the output.
 
 ## Sample Input Format
 
@@ -72,13 +72,13 @@ U001	4.5	Pop	0.25	120	0.65
 
 ## Technologies Used
 
-Python 3.8+
+ - Python 3.8+
 
-Flask
+ - Flask
 
-Pandas, NumPy, scikit-learn
+ - Pandas, NumPy, scikit-learn
 
-HTML/CSS
+ - HTML/CSS
 
 ## Screenshots
 
